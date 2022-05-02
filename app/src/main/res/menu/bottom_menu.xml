@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/actionUpvote"
+        android:title="@string/item_upvote_label"
+        android:icon="@drawable/ic_upvote_unchecked"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/actionDownVote"
+        android:title="@string/item_downvote_label"
+        android:icon="@drawable/ic_downvote_unchecked"
+        app:showAsAction="always"/>
+</menu>

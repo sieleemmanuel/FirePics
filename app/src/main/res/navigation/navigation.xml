@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/login">
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.siele.firebaseapp.ui.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/register" />
+        <action
+            android:id="@+id/action_login_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/register"
+        android:name="com.siele.firebaseapp.ui.Register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_register_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.siele.firebaseapp.ui.Home"
+        android:label="Pictures"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home2_to_pendingUploads"
+            app:destination="@id/pendingUploads" />
+        <action
+            android:id="@+id/action_home2_to_viewPicture"
+            app:destination="@id/viewPicture" />
+        <action
+            android:id="@+id/action_home2_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/pendingUploads"
+        android:name="com.siele.firebaseapp.ui.PendingUploads"
+        android:label="Saved Pictures"
+        tools:layout="@layout/fragment_pending_uploads" />
+    <fragment
+        android:id="@+id/viewPicture"
+        android:name="com.siele.firebaseapp.ui.ViewPicture"
+        android:label="Picture"
+        tools:layout="@layout/fragment_view_picture" >
+        <argument
+            android:name="picture"
+            app:argType="com.siele.firebaseapp.model.Picture" />
+        <argument
+            android:name="position"
+            app:argType="integer" />
+    </fragment>
+</navigation>

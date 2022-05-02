@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/picItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivPic"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:adjustViewBounds="true"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <ImageButton
+            android:id="@+id/ibtnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_views_unchecked"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/ibtnUpvote"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnUpvote"
+            app:layout_constraintStart_toStartOf="@+id/ivPic"
+            app:layout_constraintTop_toTopOf="@+id/ibtnUpvote"
+            android:contentDescription="@string/desc_views" />
+
+        <ImageButton
+            android:id="@+id/ibtnUpvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_upvote_unchecked"
+            app:layout_constraintEnd_toStartOf="@+id/ibtnDownvote"
+            app:layout_constraintStart_toEndOf="@+id/ibtnView"
+            app:layout_constraintTop_toBottomOf="@+id/tvUser"
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="@string/desc_upvote" />
+
+        <ImageButton
+            android:id="@+id/ibtnDownvote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/transparent"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:src="@drawable/ic_downvote_unchecked"
+            app:layout_constraintEnd_toEndOf="@+id/ivPic"
+            app:layout_constraintStart_toEndOf="@+id/ibtnUpvote"
+            app:layout_constraintTop_toBottomOf="@+id/tvUser"
+            android:contentDescription="@string/desc_downvote" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:textStyle="bold"
+            android:text="user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/ivPic"
+            app:layout_constraintTop_toBottomOf="@+id/ivPic" />
+
+        <TextView
+            android:id="@+id/tvViewsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1,234"
+            app:layout_constraintBottom_toBottomOf="@+id/tvUpvotesCount"
+            app:layout_constraintEnd_toEndOf="@+id/ibtnView"
+            app:layout_constraintStart_toStartOf="@+id/ibtnView"
+            app:layout_constraintTop_toTopOf="@+id/tvUpvotesCount" />
+
+        <TextView
+            android:id="@+id/tvUpvotesCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="1.2k"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/ibtnUpvote"
+            app:layout_constraintStart_toStartOf="@+id/ibtnUpvote"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnUpvote" />
+
+        <TextView
+            android:id="@+id/tvDownvotesCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="5"
+            app:layout_constraintEnd_toEndOf="@+id/ibtnDownvote"
+            app:layout_constraintStart_toStartOf="@+id/ibtnDownvote"
+            app:layout_constraintTop_toBottomOf="@+id/ibtnDownvote" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.5104166666666666" />
+        <entry key="app/src/main/res/drawable/circle_background.xml" value="0.2235897435897436" />
+        <entry key="app/src/main/res/drawable/ic_camera.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_close.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_downvote.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_downvote_unchecked.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_facebook.xml" value="0.2235897435897436" />
+        <entry key="app/src/main/res/drawable/ic_google.xml" value="0.2235897435897436" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.5104166666666666" />
+        <entry key="app/src/main/res/drawable/ic_password_lock.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_search.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_twitter.xml" value="0.2235897435897436" />
+        <entry key="app/src/main/res/drawable/ic_upload.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/drawable/ic_upload_svgrepo_com.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/drawable/ic_upvote.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/drawable/ic_upvote_unchecked.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/ic_views.xml" value="0.2972222222222222" />
+        <entry key="app/src/main/res/drawable/ic_views_unchecked.xml" value="0.340625" />
+        <entry key="app/src/main/res/drawable/wave_background.xml" value="0.5020833333333333" />
+        <entry key="app/src/main/res/layout-hdpi/fragment_login.xml" value="0.5075" />
+        <entry key="app/src/main/res/layout-ldpi/fragment_login.xml" value="0.7807692307692308" />
+        <entry key="app/src/main/res/layout-mdpi/fragment_login.xml" value="0.6840277777777778" />
+        <entry key="app/src/main/res/layout-xhdpi/fragment_login.xml" value="0.3099236641221374" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.31640625" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.23055555555555557" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.31640625" />
+        <entry key="app/src/main/res/layout/fragment_pending_uploads.xml" value="0.31640625" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_view_picture.xml" value="0.31640625" />
+        <entry key="app/src/main/res/layout/pager_item.xml" value="0.31640625" />
+        <entry key="app/src/main/res/layout/picture_dialog.xml" value="0.2986111111111111" />
+        <entry key="app/src/main/res/layout/picture_item.xml" value="0.30916030534351147" />
+        <entry key="app/src/main/res/layout/to_upload_item.xml" value="0.31640625" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.31640625" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.31640625" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.31640625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FirePictures</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tv_go_sign_up">Don\'t have an account? <u> <b>Sign Up</b></u></string>
+    <string name="or_login_with_label">-OR-</string>
+    <string name="forgot_password_label">Forgot password?</string>
+    <string name="enter_password_label">Enter Password</string>
+    <string name="login_babel">Login</string>
+    <string name="login_description_label">Please login to your account</string>
+    <string name="enter_username_email_label">Enter your Email</string>
+    <string name="go_to_login_label">Have an account already? <u> <b>Login here</b></u></string>
+    <string name="sign_up_label">Sign Up</string>
+    <string name="signup_description_label">Please signup your account</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="btn_sign_up_label">Sign Up</string>
+    <string name="fab_content_desc">Open Camera action</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="img_to_upload_cdesc">picture to upload</string>
+    <string name="btn_label_upload">Upload</string>
+    <string name="btn_label_remove">Remove</string>
+    <string name="item_search">Search</string>
+    <string name="item_saved_pic">Show Saved </string>
+    <string name="desc_views">views</string>
+    <string name="desc_upvote">upvote</string>
+    <string name="desc_downvote">downvote</string>
+    <string name="item_logout">Logout</string>
+    <string name="item_downvote_label">Downvote</string>
+    <string name="item_upvote_label">Upvote</string>
+    <string name="ibtn_cdesc">action downvote current picture</string>
+</resources>
